@@ -1,0 +1,258 @@
+
+@media (max-width: 1124px){
+
+    .profile__items{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+
+}
+
+@media (max-width: 1124px){
+
+    .footer__company-inner{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1091px){
+
+    .digital__inner-photo{
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 1040px){
+
+    .blockchain__inner{
+        flex-wrap: wrap;
+    }
+
+    .blockchain__inner-photo{
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 1034px){
+
+    .connect__inner{
+        justify-content: center;
+    }
+
+    .empovering__about-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .studio__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img__decor-empovering{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1019px){
+
+    .concept__items{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    .crypto__item-inner{
+        gap: 20px;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 989px){
+
+    .about__content{
+        flex-wrap: wrap-reverse;
+    }
+
+    .benefits__items{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 929px){
+
+    .team__products-items{
+        justify-content: center;
+    }
+
+    .blog__about{
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .trailblazing__links{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 907px){
+
+    .team__main{
+        padding-top: 30px;
+    }
+
+    .team__main-inner{
+        justify-content: center;
+    }
+
+    .cta__content-bottom{
+        flex-wrap: wrap;
+        gap: 50px 0px;
+    }
+
+}
+
+@media (max-width: 870px){
+
+    .blockchain__inner{
+        flex-wrap: wrap;
+    }
+
+    .blockchain__inner-photo{
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 780px){
+    /* BURGER MENU */
+
+    .menu-btn{
+       display: inline-block;
+       width: 50px;
+       height: 50px;
+       background-color: transparent;
+       order: 1;
+       border: none;
+       cursor: pointer;
+       position: relative;
+       z-index: 50;
+   }
+
+   .logo{
+       position: relative;
+       z-index: 50;
+   }
+
+   .btn-line{
+       position: absolute;
+       left: 0;
+       width: 100%;
+       background-color: var(--color-white);
+       height: 2px;
+       transition: .3s ease-in;
+   }
+
+   .btn-line:nth-child(1){
+       top: 0;
+   }
+   .btn-line:nth-child(2){
+       top: 20px;
+   }
+   .btn-line:nth-child(3){
+       top: 20px;
+   }
+   .btn-line:nth-child(4){
+       top: 40px;
+   }
+   
+   .menu-open .btn-line:nth-child(1){
+       transform: scaleX(0);
+   }
+   .menu-open .btn-line:nth-child(2){
+       transform: rotate(45deg);
+   }
+   .menu-open .btn-line:nth-child(3){
+       transform: rotate(-45deg);
+   }
+   .menu-open .btn-line:nth-child(4){
+       transform: scaleX(0);
+   }
+
+   .nav__items{
+       position: absolute;
+       z-index: 1;
+       left: 0;
+       right: 0;
+       bottom: 0;
+       top: 0;
+       background: var(--color-dark);
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+       gap: 30px;
+       transform: translateY(-100%); /*убирается с страницы*/
+       transition: .3s ease-in;
+   }
+
+   .menu-open .nav__items{
+       transform: translateY(0%); /*при клике добавляется бургер меню*/
+   }
+
+   .nav__link{
+    color: #fff;
+   }
+}
+
+@media (max-width: 730px){
+
+    .network__item-top{
+        gap: 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 667px){
+
+    .footer__suported-inner{
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 655px){
+
+    .team__advisors-inner{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .footer__top{
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 630px){
+
+    .footer__top{
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+
+}
